@@ -12,6 +12,7 @@ namespace LotoUCAB.Servicio.Servicio {
     public interface IAdmJuegos {
 
         [OperationContract]
+        [WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json)]
         string GetData(int value);
 
         [OperationContract]
