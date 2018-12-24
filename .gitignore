@@ -328,3 +328,8 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+
+# Tato estuvo aqui - Web.config - Package.config
+web.config
+packages.config
+
